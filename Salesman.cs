@@ -26,7 +26,10 @@ public abstract class Salesman
         this.Close();
     }
 
-    protected abstract void Engage();
+    protected virtual void Engage()
+    {
+
+    }
 
     protected abstract void EstablishTrusts();
     protected abstract void AddressConcerns();
